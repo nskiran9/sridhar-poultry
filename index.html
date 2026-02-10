@@ -55,6 +55,20 @@
                 font-size: 18px;
             }
         }
+        .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
     </style>
 </head>
 <body>
@@ -67,7 +81,20 @@
     <div class="container">
         <h2>Visit Us Today!</h2>
         <p>Bhavani Center, Addanki - Darsi Road</p>
+        <hr>
 
+<div class="products">
+
+    <div class="card">🐔 Broiler Chicken (With Skin) – ₹220 / kg</div>
+    <div class="card">🐔 Broiler Chicken (Without Skin) – ₹240 / kg</div>
+    <div class="card">🍗 Chicken Curry Cut – ₹260 / kg</div>
+    <div class="card">🍖 Boneless Chicken – ₹320 / kg</div>
+
+</div>
+
+<p style="margin-top:20px;">
+✔ Fresh Daily | ✔ Hygienic Cutting | ✔ Bulk Orders Available
+</p>
         <a class="btn" href="https://wa.me/918886404456?text=Hi%20I%20want%20to%20order%20fresh%20chicken" target="_blank">
     Order on WhatsApp
 </a>
