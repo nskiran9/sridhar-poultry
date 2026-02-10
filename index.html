@@ -2,35 +2,80 @@
 <html>
 <head>
     <title>SRIDHAR POULTRY AND CHICKEN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
-            font-family: Arial;
-            background-color: #fff8f0;
-            text-align: center;
-            padding: 50px;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fdf2f2;
         }
-        h1 {
+
+        header {
+            background-color: darkred;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
             color: darkred;
         }
+
         .btn {
             background-color: red;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: darkgreen;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #eee;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
 <body>
 
-    <h1>SRIDHAR POULTRY AND CHICKEN</h1>
-    <h3>Fresh & Quality Chicken Every Day</h3>
+    <header>
+        <h1>SRIDHAR POULTRY AND CHICKEN</h1>
+        <p>Fresh & Quality Chicken Every Day</p>
+    </header>
 
-    <p>Located at Bhavani Center, Addanki - Darsi Road</p>
+    <div class="container">
+        <h2>Visit Us Today!</h2>
+        <p>Bhavani Center, Addanki - Darsi Road</p>
 
-    <br>
+        <a class="btn" href="https://wa.me/918886404456?text=Hi%20I%20want%20to%20order%20fresh%20chicken" target="_blank">
+    Order on WhatsApp
+</a>
+    </div>
 
-    <a class="btn" href="#">Order on WhatsApp</a>
+    <footer>
+        © 2026 SRIDHAR POULTRY AND CHICKEN | All Rights Reserved
+    </footer>
 
 </body>
 </html>
